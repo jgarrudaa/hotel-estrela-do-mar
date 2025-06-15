@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-bre">
+
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="icon" href="assets/img/estrela1.png">
     <title>Estrela do Mar</title>
 </head>
+
 <body>
     <header>
         <div class="logo">
@@ -15,44 +20,243 @@
 
     <nav class="menu">
         <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#quartos">Quartos</a></li>
-        <li><a href="#restaurante">Restaurante</a></li>
-        <li><a href="#localizacao">Localização</a></li>
-        <li><a href="#reservas">Reservas</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#quartos">Quartos</a></li>
+            <li><a href="#restaurante">Restaurante</a></li>
+            <li><a href="#localizacao">Localização</a></li>
+            <li><a href="#reservas">Reservas</a></li>
         </ul>
     </nav>
 
     <section class="row_home" id="home">
         <div class="welcome">
-        <h2>Bem-vindo ao Hotel Estrela do Mar – seu refúgio em Búzios, onde conforto, charme e o som das ondas tornam cada momento inesquecível.</h2>
-        <br>
-        <button onclick="document.getElementById('reservas').scrollIntoView({ behavior: 'smooth' })">Reserve Já</button>
+            <h2>Bem-vindo ao Hotel Estrela do Mar – seu refúgio em Búzios, onde conforto, charme e o som das ondas
+                tornam cada momento inesquecível.</h2>
+            <br>
+            <button onclick="document.getElementById('reservas').scrollIntoView({ behavior: 'smooth' })">Reserve
+                Já</button>
         </div>
     </section>
-        
-    <section class="row" id="quartos">
-        <h2>Bem-vindo ao Hotel Estrela do Mar – seu refúgio em Búzios, onde conforto, charme e o som das ondas tornam cada momento inesquecível.</h2>
-        <button><a href="#reservas">Reserve Já</a></button>
+
+    <section class="row_bedroom" id="quartos">
+        <div class="text">
+            <h1>Quartos</h1>
+            <p>No Hotel Estrela do Mar, cada quarto foi pensado para oferecer conforto, tranquilidade e uma experiência
+                inesquecível à beira-mar. Nossas acomodações combinam praticidade e charme, com diferentes opções para
+                atender às suas necessidades — seja uma viagem a dois, em família ou a trabalho.
+
+                Todos os quartos contam com ar-condicionado, Wi-Fi gratuito, TV, frigobar e banheiro privativo. Algumas
+                unidades oferecem varanda com vista para o mar ou para o jardim, garantindo momentos de relaxamento com
+                o melhor da brisa litorânea.
+
+                Explore nossas categorias e encontre o espaço ideal para sua estadia.</p>
+        </div>
+
+        <div class="bedrooms">
+            <div class="swiper swiper_quartos">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="room_image">
+                            <img src="assets/img/quarto1.png" alt="Imagem do quarto">
+                        </div>
+
+                        <div class="info">
+                            <h1>Suíte Pérola do Mar</h1>
+                            <h2>Capacidade: Até 2 pessoas</h2>
+                            <p>Suíte charmosa com cama queen-size, varanda com vista para o mar, ar-condicionado,
+                                SmartTV e banheiro com chuveiro de alta pressão.</p>
+                            <button>Verificar disponibilidade</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="room_image">
+                            <img src="assets/img/quarto2.png" alt="Imagem do quarto">
+                        </div>
+
+                        <div class="info">
+                            <h1>Quarto Família Brisa</h1>
+                            <h2>Capacidade: Até 4 pessoas</h2>
+                            <p>Acomodação familiar com cama de casal e duas de solteiro, decoração praiana,
+                                frigobar,ar-condicionado e Wi-Fi.</p>
+                            <button>Verificar disponibilidade</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="room_image">
+                            <img src="assets/img/quarto3.png" alt="Imagem do quarto">
+                        </div>
+
+                        <div class="info">
+                            <h1>Suíte Master Estrela</h1>
+                            <h2>Capacidade: Até 3 pessoas</h2>
+                            <p>Luxuosa, com cama king-size, sofá-cama, hidromassagem, varanda com rede, cafeteira e
+                                vista frontal para o mar.</p>
+                            <button>Verificar disponibilidade</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="room_image">
+                            <img src="assets/img/quarto4.png" alt="Imagem do quarto">
+                        </div>
+
+                        <div class="info">
+                            <h1>Quarto Sol Nascente</h1>
+                            <h2>Capacidade: Até 2 pessoas</h2>
+                            <p>Quarto compacto com cama de casal, mesa de trabalho, ar-condicionado e ótima iluminação
+                                natural.</p>
+                            <button>Verificar disponibilidade</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="room_image">
+                            <img src="assets/img/quarto5.png" alt="Imagem do quarto">
+                        </div>
+
+                        <div class="info">
+                            <h1>Quarto Jardim das Águas</h1>
+                            <h2>Capacidade: Até 3 pessoas</h2>
+                            <p>Ambiente tranquilo com cama de casal e uma de solteiro, vista para o jardim, ventilador
+                                de teto e janelas amplas.</p>
+                            <button>Verificar disponibilidade</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="room_image">
+                            <img src="assets/img/quarto6.png" alt="Imagem do quarto">
+                        </div>
+
+                        <div class="info">
+                            <h1>Loft Azul do Horizonte</h1>
+                            <h2>Capacidade: Até 5 pessoas</h2>
+                            <p>Loft espaçoso com sala, sofá-cama, camas para até cinco pessoas, cozinha compacta e
+                                varanda com vista lateral para o mar.</p>
+                            <button>Verificar disponibilidade</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-button-prev btn-quartos-prev"><i class="fas fa-chevron-left"></i></div>
+                <div class="swiper-button-next btn-quartos-next"><i class="fas fa-chevron-right"></i></div>
+
+                <div class="swiper-pagination pag-quartos"></div>
+            </div>
+        </div>
+
     </section>
 
-    <section class="row" id="restaurante">
-        <h2>Bem-vindo ao Hotel Estrela do Mar – seu refúgio em Búzios, onde conforto, charme e o som das ondas tornam cada momento inesquecível.</h2>
-        <button><a href="#reservas">Reserve Já</a></button>
+    <section class="row_restaurant" id="restaurante">
+        <div class="rest-txt">
+            <h1>Restaurante</h1>
+            <p>O restaurante do Hotel Estrela do Mar oferece uma experiência gastronômica completa em um ambiente
+                acolhedor e elegante. Com café da manhã, almoço e jantar, o menu é elaborado com ingredientes frescos e
+                de alta qualidade, abrangendo desde pratos regionais a internacionais. A equipe garante um serviço
+                atencioso, proporcionando uma experiência memorável para hóspedes e visitantes.</p>
+        </div>
+
+        <div class="swiper swiper_restaurant">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide-rest"><img src="assets/img/restaurante1.png"></div>
+                <div class="swiper-slide slide-rest"><img src="assets/img/restaurante2.png"></div>
+                <div class="swiper-slide slide-rest"><img src="assets/img/restaurante3.png"></div>
+                <div class="swiper-slide slide-rest"><img src="assets/img/restaurante4.png"></div>
+                <div class="swiper-slide slide-rest"><img src="assets/img/restaurante5.png"></div>
+                <div class="swiper-slide slide-rest"><img src="assets/img/restaurante6.png"></div>
+
+            </div>
+
+            <div class="swiper-pagination pag-rest"></div>
+
+            <div class="swiper-button-prev btn-rest-prev"><i class="fas fa-chevron-left"></i></div>
+            <div class="swiper-button-next btn-rest-next"><i class="fas fa-chevron-right"></i></div>
+        </div>
     </section>
 
-    <section class="row" id="localizacao">
-        <h2>Bem-vindo ao Hotel Estrela do Mar – seu refúgio em Búzios, onde conforto, charme e o som das ondas tornam cada momento inesquecível.</h2>
-        <button><a href="#reservas">Reserve Já</a></button>
+    <section class="row_loc" id="localizacao">
+        <div class="container">
+            <div class="contorno">
+                <img src="assets/img/localizacao.png">
+            </div>
+        </div>
+        <div class="container">
+            <h1>Localização</h1>
+            <p>Estamos localizados numa das melhores regiões do litoral fluminense. Venha e conheça a cidade de
+                Búzios/RJ.</p>
+            <h2>Avenida Atlântica, 10 - Centro - Búzios/RJ</h2>
+        </div>
     </section>
 
-    <section class="row" id="reservas">
-        <h2>Bem-vindo ao Hotel Estrela do Mar – seu refúgio em Búzios, onde conforto, charme e o som das ondas tornam cada momento inesquecível.</h2>
-        <button><a href="#reservas">Reserve Já</a></button>
+    <section class="row_reservas" id="reservas">
+        <section class="reserva-container-horizontal" id="reservas">
+            <h2>Faça sua Reserva</h2>
+            <form class="form-reserva-horizontal">
+                <div class="form-group">
+                    <label for="data-entrada">Data de entrada</label>
+                    <input type="date" id="data-entrada" name="data-entrada" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="dias">Dias de estadia</label>
+                    <input type="number" id="dias" name="dias" min="1" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="adultos">Adultos</label>
+                    <input type="number" id="adultos" name="adultos" min="1" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="criancas">Crianças</label>
+                    <input type="number" id="criancas" name="criancas" min="0">
+                </div>
+
+                <div class="form-group">
+                    <label for="tipo-quarto">Tipo de quarto</label>
+                    <select id="tipo-quarto" name="tipo-quarto" required>
+                        <option value="">Selecione...</option>
+                        <option value="pérola">Suíte Pérola do Mar</option>
+                        <option value="familia">Quarto Família Brisa</option>
+                        <option value="master">Suíte Master Estrela</option>
+                        <option value="sol">Quarto Sol Nascente</option>
+                        <option value="jardim">Quarto Jardim das Águas</option>
+                        <option value="jardim">Loft Azul do Horizonte</option>
+                    </select>
+                </div>
+
+                <div class="form-group full-width">
+                    <button type="submit">Reservar Agora</button>
+                </div>
+            </form>
+        </section>
+
     </section>
 
     <footer>
-
+        <section class="col_rodape">
+            <div class="logofooter">
+                <img src="assets/img/estrela6.png">
+                <h1>Estrela do Mar Hotel</h1>
+            </div>
+        </section>
+        <section class="col_rodape">
+            <h2>Avenida Atlântica, 10 - Centro - Búzios/RJ</h2>
+        </section>
+        <section class="col_rodape">
+            <div class="contato">
+                <img src="assets/img/instagram.png">
+                <h2>@hotelestreladomar</h2>
+            </div>
+            <div class="contato">
+                <img src="assets/img/telefone.png">
+                <h2>(22) 99876-4321</h2>
+            </div>
+        </section>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>

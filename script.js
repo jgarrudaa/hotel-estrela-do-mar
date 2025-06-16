@@ -2,7 +2,6 @@ var swiper = new Swiper(".swiper_quartos", {
     slidesPerView: 3,
     spaceBetween: 18,
     loop: true,
-    grabCursor: true,
 
     navigation: {
         nextEl: ".btn-quartos-next",
@@ -18,7 +17,6 @@ var swiper = new Swiper(".swiper_restaurant", {
     slidesPerView: 1,
     spaceBetween: 0,
     loop: true,
-    grabCursor: true,
 
     autoplay: {
         delay: 3000, // Tempo entre os slides (3 segundos)
